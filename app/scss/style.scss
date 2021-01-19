@@ -1,0 +1,40 @@
+input[type=file] {
+    display: none;
+}
+
+label {
+    position: fixed;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    display: block;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 3px solid #000
+}
+.line1 {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    background-color: #000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+}
+
+.line2{
+    content: '';
+    display: block;
+    width: 3px;
+    height: 40px;
+    background-color: #000;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;   
+}
