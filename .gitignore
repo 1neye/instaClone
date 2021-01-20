@@ -1,5 +1,5 @@
 
 *.node
-node_modules/.bin/node-sass
-node_modules/.bin/node-sass
+node_modules/
+
 node_modules/.bin/node-sass
